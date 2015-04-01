@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@import url("reset.css");
+
+body {
+	font-family: "Century Gothic", "Tw Cen MT", Futura, "URW Gothic L", Arial, sans-serif;
+}
+
+strong { font-weight: bold; }
+em { font-style: italic; }
+.clear { clear: both; }
+
+a { text-decoration: none; }
+a:link { color: #006; }
+a:visited { color: #006; }
+a:active { color: #039; }
+a:hover { text-decoration: underline; }
+
+h1 {
+	font-size: 200%;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 120%;
+}
+
+#wrapper {
+	width: 100%;
+	height: 100%;
+	padding: 20px 0;
+	background: #222;
+	background: url(texture.jpg) repeat;
+}
+
+#container {
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-khtml-border-radius: 16px;
+	border-radius: 16px;
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 20px;
+	background: #bb6;
+	background: rgba(187,187,102, .4);
+}
+
+	#banner {
+		width: 860px;
+		margin: 0 auto;
+		padding-bottom: 20px;
+	}
+
+	.dealership {
+		position: relative;
+		width: 400px;
+		background-color: #ddd;
+		padding: 10px 0;
+		text-align: center;
+		float: left;
+		-moz-box-shadow: 0 0 12px #000;
+		-webkit-box-shadow: 0 0 12px #000;
+		box-shadow: 0 0 12px #000;
+	}
+		
+		.dealership:hover { background-color: #fff; }
+
+		.dealership span {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			top: 0;
+			left: 0;
+			z-index: 1;
+			background-image: url('empty.gif');
+			cursor: pointer;
+		}
+
+	#subaru { margin: 0 30px 0 50px; }
+	#ford { margin: 0 50px 0 30px; }
+
+.hours {
+	text-align: left;
+	font-size: 80%;
+	width: 240px;
+	margin: 0 auto 20px;
+}
+
+.hours h2 {
+	text-align: center;	
+	font-weight: bold;
+	font-size: 120%;
+	margin-bottom: 4px;
+}
+
+.hours table tr td:first-child {
+	padding-right: 8px;
+}
+
+.button {
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-khtml-border-radius: 16px;
+	border-radius: 16px;
+	background-color: #006;
+	color: #fff;
+	text-align: center;
+	padding: 12px 0;
+	margin: 0 auto;
+	width: 348px;
+	position: relative;
+	z-index: 2;
+}
+.button:hover { background-color: #039; cursor: pointer; }
+
+.button a {
+	color: #fff;
+	display: block;
+}
+.button a:hover { text-decoration: none; }
+
+#logo {
+	text-align: center;
+}
+
+#logo img {
+	padding: 60px 0 20px;
+}
+
+#fb {
+	background-color: #ddd;
+	width: 860px;
+	margin: 0 auto;
+	border: 4px solid #006;
+}
+
+.copyright {
+	font-size: 60%;
+	padding-bottom: 2px;
+}
