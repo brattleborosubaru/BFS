@@ -96,7 +96,7 @@ h2 {
 	padding-right: 8px;
 }
 
-.button {
+.btn {
 	-moz-border-radius: 16px;
 	-webkit-border-radius: 16px;
 	-khtml-border-radius: 16px;
@@ -110,13 +110,13 @@ h2 {
 	position: relative;
 	z-index: 2;
 }
-.button:hover { background-color: #039; cursor: pointer; }
+.btn:hover { background-color: #039; cursor: pointer; }
 
-.button a {
+.btn a {
 	color: #fff;
 	display: block;
 }
-.button a:hover { text-decoration: none; }
+.btn a:hover { text-decoration: none; }
 
 #logo {
 	text-align: center;
